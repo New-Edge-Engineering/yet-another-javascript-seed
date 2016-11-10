@@ -1,6 +1,6 @@
-# Yet Another Angular Seed
+# Yet Another Javascript Seed
 
-A project kickstarter for [AngularJS](angularjs) web applications inspired by:
+A project kickstarter for [JavaScript](javascript) web applications inspired by:
 
 * [ng-boilerplate][ngbp] created by @joshdmiller
 * [Better Grunt files (for organised developers)][eddify] by Andrew Eddie
@@ -36,7 +36,7 @@ Happy hacking!
 
 ## Purpose
 
-The original `ngBoilerplate` is designed to make life easy by providing a basic 
+The original `ngBoilerplate` is designed to make life easy by providing a basic
 framework with which to kickstart AngularJS projects. It contains a best-
 practice directory structure to ensure code reusability and maximum scalability.
 This kickstarter also comes prepackaged with the most popular design frameworks
@@ -124,15 +124,15 @@ What follows is a brief description of each entry, but most directories contain
 their own `README.md` file with additional documentation, so browse around to
 learn more.
 
-* `grunt/` - contains the grunt task configuration and build tasks. 
+* `grunt/` - contains the grunt task configuration and build tasks.
   [Read more &raquo;](grunt/README.md)
 * `src/` - the application code. [Read more &raquo;](src/README.md)
 * `.bowerrc` - the Bower configuration file. This tells Bower what to install
   components into the `src/vendor/` directory.
 * `bower.json` - this is our project configuration for Bower and it contains the
   list of Bower dependencies we need.
-* `Gruntfile.js` - the univeral build script that pulls in all the files within 
-  `grunt/config/` and `grunt/tasks'. [Read more &raquo;](grunt/README.md)
+* `Gruntfile.js` - the univeral build script that pulls in all the files within
+  `grunt/config/` and `grunt/tasks`. [Read more &raquo;](grunt/README.md)
 - `package.json` - metadata about the app, used by NPM and our build script. Our
   NPM dependencies are listed here.
 
@@ -147,17 +147,17 @@ overview of the tools](tools.md) before continuing with this section.
 
 Okay, ready to go? Here it is:
 
-this kickstarter uses [Grunt][gruntjs] as its build system, so [Node.js][node]
+This kickstarter uses [Grunt][gruntjs] as its build system, so [Node.js][node]
 is required. Also, Grunt by default no longer comes with a command-line utility
 and Karma and Bower must end up in your global path for the build system to find
-it, so they must be installed independently. Once you have Node.js installed,
+it, so they must be installed independently. Once you have [Node.js][node] installed,
 you can simply use `npm` to make it all happen:
 
 ```sh
 $ npm -g install grunt-cli karma bower
 ```
 
-If you're on Linux (like I am) then throw `sudo` in front of that command.  If
+If you're on Linux or Mac OS X then throw `sudo` in front of that command.  If
 you're on Windows, then open the terminal `As Administrator`.
 
 Next, you can either clone this repository using [Git][git], download it as a
@@ -165,7 +165,7 @@ zip file from GitHub, or merge the branch into your existing repository.
 Assuming you're starting from scratch, simply clone this repository using git:
 
 ```sh
-$ git clone http://github.com/New-Edge-Engineering/yet-another-angularjs-seed <my-project-name>
+$ git clone http://github.com/New-Edge-Engineering/yet-another-javascript-seed <my-project-name>
 $ cd <my-project-name>
 ```
 
@@ -333,6 +333,7 @@ So join the team! We're good people.
 [gruntjs]: http://gruntjs.org
 [html5boilerplate]: https://html5boilerplate.com/
 [jasmine]: http://pivotal.github.com/jasmine/
+[javascript]: https://en.wikipedia.org/wiki/ECMAScript
 [jenkins]: https://jenkins-ci.org/
 [karma]: http://karma-runner.github.io
 [mknabe]: https://github.com/mknabe/angular-testing-starter
