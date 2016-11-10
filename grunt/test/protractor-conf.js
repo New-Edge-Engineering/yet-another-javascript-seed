@@ -1,6 +1,8 @@
 exports.config = {
-  // seleniumServerJar: '../node_modules/protractor/selenium/selenium-server-standalone-2.42.0.jar',
-  // chromeDriver: '../node_modules/protractor/selenium/chromedriver',
+  // seleniumServerJar: '../../node_modules/protractor/selenium/selenium-server-standalone-2.40.0.jar',
+  chromeDriver: '../../node_modules/protractor/selenium/chromedriver',
+  chromeOnly: true,
+  directConnect: true,
 
   // location of E2E test specs
   specs: [
@@ -27,5 +29,6 @@ exports.config = {
   baseUrl: 'http://127.0.0.1:9000/',
 
   // testing framework, jasmine is the default
-  framework: 'jasmine'
+  framework: 'jasmine',
+  debug: true
 };
