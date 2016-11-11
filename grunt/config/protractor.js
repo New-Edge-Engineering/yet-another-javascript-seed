@@ -7,7 +7,7 @@ module.exports = function (grunt) {
         options : {
             configFile : "grunt/test/protractor-conf.js", // Default config file
             noColor : false, // If true, protractor will not use colors in its output.
-            // debug: true,
+            debug: true, // needed to work with protractor-runner 4.0.0
             args : {
 
             }
