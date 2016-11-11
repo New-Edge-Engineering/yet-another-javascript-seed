@@ -311,7 +311,7 @@ npm run package -- --target=yy.mm.build
 
 ### Reporting Issuses
 
-See the [issues list][yaas] and feel free to submit your own!
+See the [issues list][yajs] and feel free to submit your own!
 
 ### Contributing
 
@@ -322,8 +322,17 @@ through all the usual channels or you can open an issue on the GitHub page. If
 you're feeling ambitious, you can even submit a pull request - how thoughtful
 of you!
 
-So join the team! We're good people.
+## Gotchas
+* **Warning: Tests failed, protractor exited with code: 199 Use --force to continue.**
+  This is most likely incorrect java version, execute the following to determine:
 
+      java -version
+
+  This should return 1.8, i.e:
+
+      java version "1.8.0_111"
+      Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+      Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
 
 [angularjs]: http://angularjs.org
 [bower]: http://bower.io
@@ -342,4 +351,4 @@ So join the team! We're good people.
 [node]: http://nodejs.org
 [protractor]: https://github.com/angular/protractor
 [rhumaric]: http://rhumaric.com/2013/07/renewing-the-grunt-livereload-magic/
-[yaas]: http://github.com/New-Edge-Engineering/yet-another-angularjs-seed/issues
+[yajs]: http://github.com/New-Edge-Engineering/yet-another-javascript-seed/issues
