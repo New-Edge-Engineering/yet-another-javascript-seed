@@ -332,7 +332,7 @@ So join the team! We're good people.
 [git]: http://git-scm.com/
 [gruntjs]: http://gruntjs.org
 [html5boilerplate]: https://html5boilerplate.com/
-[jasmine]: http://pivotal.github.com/jasmine/
+[jasmine]: https://jasmine.github.io/
 [jenkins]: https://jenkins-ci.org/
 [karma]: http://karma-runner.github.io
 [mknabe]: https://github.com/mknabe/angular-testing-starter
